@@ -1,0 +1,3 @@
+# React Router v6 Wildcard Route Bug
+
+This repository demonstrates a common issue in React Router v6 where the wildcard route (`*`) overrides more specific routes.  The bug showcases the problem, and the solution offers a corrected approach using more precise route definitions to prevent unexpected behavior.  The solution demonstrates how to avoid this problem by defining more specific routes in the correct order to prevent the catch-all route from always triggering.
